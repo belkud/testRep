@@ -29,3 +29,33 @@ window.addEventListener('click', (e)=> {
 })
 
 
+function add (a,b) {
+  return a+b
+}
+console.log(add(5,4));
+
+function carryAdd(a) {
+  return function(b) {
+    return a + b
+  }
+}
+console.log(carryAdd(4)(5));
+
+
+
+
+
+function multiply(a, b, c) {
+    return a * b * c;
+}
+
+console.log(multiply(2, 3, 4))
+
+function carriedMultiply(a) {
+  return function (b) {
+    return function (c) {
+      return a*b*c
+    }
+  }
+}
+console.log(carriedMultiply(2) (3) (4))
