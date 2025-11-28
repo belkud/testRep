@@ -1,7 +1,5 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+
 
 
 
@@ -43,8 +41,6 @@ console.log(carryAdd(4)(5));
 
 
 
-
-
 function multiply(a, b, c) {
     return a * b * c;
 }
@@ -59,3 +55,8 @@ function carriedMultiply(a) {
   }
 }
 console.log(carriedMultiply(2) (3) (4))
+
+
+
+
+
