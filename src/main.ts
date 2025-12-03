@@ -72,3 +72,34 @@ function findConsiquence (mass:number[]) {
   
 }
 findConsiquence(massWithOnesAndZeros)
+
+
+let massWithWords = ["call","call","call"]
+
+// function createCounter2(n:number) {
+//   massWithWords.forEach((el,i)=> {
+//    return console.log(Number([i].toString())+n);
+//   })
+  
+// };
+
+// createCounter2(20)
+
+
+
+
+var createCounter = function(n) {
+  massWithWords.forEach((el,i)=> {
+   return console.log(Number([i])+n);
+  })
+  
+    return function() {
+        
+    };
+};
+
+const counter = createCounter(10)
+counter() // 10
+ 
+
+
